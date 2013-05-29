@@ -91,16 +91,6 @@ public class MainFragment extends SherlockFragment {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
-		
-//		if (item.getItemId() == android.R.id.home) {
-//
-//			if (mDrawerLayout.isDrawerOpen(listView)) {
-//				mDrawerLayout.closeDrawer(listView);
-//			} else {
-//				mDrawerLayout.openDrawer(listView);
-//			}
-//		}
-//		return super.onOptionsItemSelected(item);
 	}
 
 	@Override
