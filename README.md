@@ -3,8 +3,8 @@ SherlockNavigationDrawer
 
 SherlockNavigationDrawer is the implementation of the latest Google UX component, Navigation Drawer. It should work exactly as Google Drive plus!! It works with ActionBarSherlock and devices with pre HC.
 
-VERY IMPORTANT 1: This project works with ActionBarSherlock (ABS) please download and use it as an Android library or by maven.<br>
-VERY IMPORTANT 2: Remember to update the android-support-v4.jar to the latest version (minimum required revision 13).
+<b>VERY IMPORTANT 1:</b> This project works with ActionBarSherlock (ABS) please download and use it as usual.<br>
+<b>VERY IMPORTANT 2:</b> Remember to update the android-support-v4.jar to the latest version (minimum required revision 13).
 
 Developed By
 ============
