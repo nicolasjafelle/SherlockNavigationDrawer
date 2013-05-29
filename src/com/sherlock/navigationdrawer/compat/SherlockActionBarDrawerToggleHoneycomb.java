@@ -15,7 +15,7 @@
  */
 
 
-package com.sherlock.navigationdrawer.support;
+package com.sherlock.navigationdrawer.compat;
 
 import java.lang.reflect.Method;
 
