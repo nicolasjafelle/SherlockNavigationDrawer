@@ -17,3 +17,7 @@ local.properties
 
 # Eclipse project files
 .classpath
+library/.settings
+library/.project
+examples/shakespeare/.settings
+examples/shakespeare/.project
