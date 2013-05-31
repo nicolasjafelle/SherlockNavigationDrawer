@@ -17,6 +17,11 @@ Developed By
 ============
 
 * Nicolas Jafelle - <nicolasjafelle@gmail.com>
+
+
+Reorganized By
+============
+
 * pablisco - <pabs87@gmail.com> - <http://pablisco.com>
 
 
@@ -24,7 +29,6 @@ License
 =======
 
     Copyright 2013 Nicolas Jafelle
-    Copyright 2013 pablisco
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
