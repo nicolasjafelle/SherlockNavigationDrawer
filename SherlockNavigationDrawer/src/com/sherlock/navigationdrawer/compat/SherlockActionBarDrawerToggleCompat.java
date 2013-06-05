@@ -29,7 +29,7 @@ import android.widget.ImageView;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.sherlock.navigationdrawer.R;
+import com.actionbarsherlock.R;
 
 /**
  * This class encapsulates some awful hacks.
@@ -42,7 +42,6 @@ public class SherlockActionBarDrawerToggleCompat {
     private static final String TAG = "SherlockActionBarDrawerToggleCompat";
 
     private static final int[] THEME_ATTRS = new int[] {
-//    	R.attr.homeAsUpIndicator
         R.attr.homeAsUpIndicator
     };
 
