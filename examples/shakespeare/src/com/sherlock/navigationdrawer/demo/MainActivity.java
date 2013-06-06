@@ -1,4 +1,4 @@
-package com.sherlock.navigationdrawer;
+package com.sherlock.navigationdrawer.demo;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;

@@ -1,6 +1,7 @@
-package com.sherlock.navigationdrawer;
+package com.sherlock.navigationdrawer.demo;
 
 import android.content.res.Configuration;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.GravityCompat;
@@ -19,6 +20,7 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
+import com.sherlock.navigationdrawer.demo.R;
 import com.sherlock.navigationdrawer.compat.SherlockActionBarDrawerToggle;
 
 public class MainFragment extends SherlockFragment {
