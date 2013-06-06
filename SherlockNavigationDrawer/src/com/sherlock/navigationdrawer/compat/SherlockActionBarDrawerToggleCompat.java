@@ -29,7 +29,7 @@ import android.widget.ImageView;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
-import com.actionbarsherlock.R;
+import com.sherlock.navigationdrawer.R;
 
 /**
  * This class encapsulates some awful hacks.
