@@ -8,12 +8,15 @@ SherlockNavigationDrawer is the implementation of the latest Google UX component
 
 A demo app is available in the Google Play Store, check it out: <a href="https://play.google.com/store/apps/details?id=com.sherlock.navigationdrawer&feature=search_result#?t=W251bGwsMSwyLDEsImNvbS5zaGVybG9jay5uYXZpZ2F0aW9uZHJhd2VyIl0.">Google Play Link</a>.
 
-JAR Usage
-=========
+Instructions
+============
 
-To avoid having to import an Android you can add this library to your /libs folder: [abs-NavigationDrawer.jar](jars/abs-NavigationDrawer.jar)
-
-And example can be found here: [examples/shakespeare-jar](examples/shakespeare-jar)
+1. Download ActionBarSherlock
+2. Update android-support-v4.jar to revision 13 or higher, in ActionBarSherlock libs folder or maven.
+3. Download SherlockNavigationDrawer
+4. Add ActionBarSherlock as Android Library for SherlockNavigationDrawer
+5. Add SherlockNavigationDrawer as Android Library to use in your final project
+6. DONE
 
 Developed By
 ============
@@ -21,7 +24,7 @@ Developed By
 * Nicolas Jafelle - <nicolasjafelle@gmail.com>
 
 
-Reorganized By
+Contributor
 ============
 
 * pablisco - <pabs87@gmail.com> - <http://pablisco.com>
