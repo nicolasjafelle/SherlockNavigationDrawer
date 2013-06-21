@@ -71,7 +71,7 @@ public class MainFragment extends SherlockFragment {
 		// the
 		// prescribed interactions between a top-level sliding drawer and the
 		// action bar.
-		mDrawerToggle = new SherlockActionBarDrawerToggle(this.getActivity(), mDrawerLayout, R.drawable.ic_drawer, R.string.drawer_open, R.string.drawer_close);
+		mDrawerToggle = new SherlockActionBarDrawerToggle(this.getActivity(), mDrawerLayout, R.drawable.ic_drawer_light, R.string.drawer_open, R.string.drawer_close);
 		mDrawerToggle.syncState();
 		return view;
 	}
