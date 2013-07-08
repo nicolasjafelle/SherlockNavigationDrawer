@@ -49,7 +49,6 @@ uploadArchives {
 			pom {
 				artifactId = 'navigationdrawer'
 			}
-            repository(url: "file://z:/Temp/mvn-repo/")
         }
     }
 }
