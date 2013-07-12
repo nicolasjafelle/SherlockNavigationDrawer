@@ -26,7 +26,7 @@ Developed By
 
 Contributor
 ============
-
+* Goddchen - <goddchen@googlemail.com> - <http://blog.goddchen.de>
 * pablisco - <pabs87@gmail.com> - <http://pablisco.com>
 
 
