@@ -247,6 +247,7 @@ public class SherlockActionBarDrawerToggle implements DrawerLayout.DrawerListene
             } else {
                 mDrawerLayout.openDrawer(GravityCompat.START);
             }
+            return true;
         }
         return false;
     }
