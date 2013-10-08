@@ -106,7 +106,7 @@ public class SherlockActionBarDrawerToggle implements DrawerLayout.DrawerListene
 
     static {
         final int version = Build.VERSION.SDK_INT;
-        if (version >= 11) {
+        if (version >= 14) {
             IMPL = new ActionBarDrawerToggleImplHC();
         } else {
             IMPL = new ActionBarDrawerToggleImplCompat();
