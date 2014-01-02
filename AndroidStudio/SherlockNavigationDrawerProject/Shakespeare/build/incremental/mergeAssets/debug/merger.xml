@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComActionbarsherlockActionbarsherlock440.aar" >
+        <source path="/home/nicolas/AndroidStudioProjects/SherlockNavigationDrawer/AndroidStudio/SherlockNavigationDrawerProject/Shakespeare/build/exploded-bundles/ComActionbarsherlockActionbarsherlock440.aar/assets" />
+    </dataSet>
+    <dataSet config="ComSherlockSherlockNavigationDrawer10.aar" >
+        <source path="/home/nicolas/AndroidStudioProjects/SherlockNavigationDrawer/AndroidStudio/SherlockNavigationDrawerProject/Shakespeare/build/exploded-bundles/ComSherlockSherlockNavigationDrawer10.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/nicolas/AndroidStudioProjects/SherlockNavigationDrawer/AndroidStudio/SherlockNavigationDrawerProject/Shakespeare/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/nicolas/AndroidStudioProjects/SherlockNavigationDrawer/AndroidStudio/SherlockNavigationDrawerProject/Shakespeare/src/debug/assets" />
+    </dataSet>
+
+</merger>

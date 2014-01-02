@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shakespeare/Shakespeare.iml" filepath="$PROJECT_DIR$/Shakespeare/Shakespeare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" filepath="$PROJECT_DIR$/SherlockNavigationDrawer/SherlockNavigationDrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SherlockNavigationDrawerProject.iml" filepath="$PROJECT_DIR$/SherlockNavigationDrawerProject.iml" />
+    </modules>
+  </component>
+</project>
+
