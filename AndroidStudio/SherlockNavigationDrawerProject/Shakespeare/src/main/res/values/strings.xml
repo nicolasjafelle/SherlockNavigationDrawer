@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SherlockNavigationDrawer Sample</string>
+	<string name="action_settings">Settings</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="description">Click on the Android icon to open the Navigation Drawer.</string>
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+</resources>
