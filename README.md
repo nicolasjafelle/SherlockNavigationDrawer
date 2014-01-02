@@ -18,6 +18,19 @@ Instructions
 5. Add SherlockNavigationDrawer as Android Library to use in your final project
 6. DONE
 
+Instructions for Android Studio
+============
+
+1. Clone the repo
+2. Import the "SherlockNavigationDrawer" module into your Android-gradle project.
+3. Add "SherlockNavigationDrawer" module in your settings.gradle
+4. Add compile project(':SherlockNavigationDrawer') in your dependencies
+5. DONE
+
+mport the "PagingListView" module into your Android-gradle project.
+Add "PagingListView" module in your settings.gradle
+DONE
+
 Developed By
 ============
 
