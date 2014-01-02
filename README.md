@@ -27,10 +27,6 @@ Instructions for Android Studio
 4. Add compile project(':SherlockNavigationDrawer') in your dependencies
 5. DONE
 
-mport the "PagingListView" module into your Android-gradle project.
-Add "PagingListView" module in your settings.gradle
-DONE
-
 Developed By
 ============
 
