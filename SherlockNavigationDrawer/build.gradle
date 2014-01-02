@@ -1,11 +1,13 @@
 buildscript {
-  repositories {
-    mavenCentral()
-  }
-
-  dependencies {
-    classpath 'com.android.tools.build:gradle:0.4.+'
-  }
+    repositories {
+        maven {
+            url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.7.+'
+    }
 }
 
 apply plugin: 'android-library'
@@ -13,42 +15,45 @@ apply plugin: 'maven'
 
 repositories {
     maven {
-      url "https://github.com/Goddchen/mvn-repo/raw/master/"
+        url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
     }
     mavenCentral()
 }
 
 dependencies {
-  compile 'com.android.support:support-v4:13.0.0'
-  compile 'com.actionbarsherlock:actionbarsherlock:4.3.1'
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:18.0.+'
 }
 
 android {
-  compileSdkVersion 17
-  buildToolsVersion '17'
+    compileSdkVersion 19
+    buildToolsVersion '19.0.1'
 
-  defaultConfig {
-    targetSdkVersion 17
-  }
-
-  sourceSets {
-    main {
-      manifest.srcFile 'AndroidManifest.xml'
-      java.srcDirs = ['src']
-      res.srcDirs = ['res']
+    defaultConfig {
+        targetSdkVersion 19
     }
-  }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
 }
 
 group 'com.sherlock'
-version '1.0-SNAPSHOT'
+version '1.0'
+
+ext.home = "file://" + System.getProperty("user.home") + "/.m2/repository"
 
 uploadArchives {
     repositories {
         mavenDeployer {
-			pom {
-				artifactId = 'navigationdrawer'
-			}
+            pom {
+                artifactId = 'navigationdrawer'
+            }
+            repository(url: home)
         }
     }
 }

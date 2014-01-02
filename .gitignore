@@ -11,12 +11,31 @@
 # generated files
 bin/
 gen/
+target/
+tmp/
 
 # Local configuration file (sdk path, etc)
 local.properties
+lint.xml
+
 
 # Eclipse project files
 .classpath
-.settings
 .project
-.metadata
+.metadata/
+.settings/
+
+# Android Studio project files
+.idea/
+modules.xml
+workspace.xml
+*.iml
+out/
+.gradle
+build/
+
+# Mac OS file
+.DS_Store
+
+# Windows File
+.thumb
