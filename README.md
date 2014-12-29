@@ -1,6 +1,8 @@
 SherlockNavigationDrawer
 ========================
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SherlockNavigationDrawer-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1275)
+
 SherlockNavigationDrawer is the implementation of the latest Google UX component, Navigation Drawer, for ActionBarSherlock. It should work exactly as Google Drive app, It works with ActionBarSherlock for pre Honeycomb devices and above. It also use Fragments.
 
 <b>VERY IMPORTANT 1:</b> This project works with ActionBarSherlock (ABS) please download and use it as usual.<br>
